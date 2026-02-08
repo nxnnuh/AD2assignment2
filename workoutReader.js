@@ -56,5 +56,6 @@ async function workoutCalculator(filepath) {
         return null;
     }
 }
+module.exports = { workoutCalculator };
 
 workoutCalculator("./data/workouts.csv")

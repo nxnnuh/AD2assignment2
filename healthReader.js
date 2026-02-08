@@ -31,5 +31,6 @@ async function healthMetricsCounter(filepath) {
         return null;
     }
 }
+module.exports = { healthMetricsCounter };
 
 healthMetricsCounter('./data/health-metrics.json')
