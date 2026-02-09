@@ -33,4 +33,4 @@ async function healthMetricsCounter(filepath) {
 }
 module.exports = { healthMetricsCounter };
 
-healthMetricsCounter('./data/health-metrics.json')
+//healthMetricsCounter('./data/health-metrics.json')
